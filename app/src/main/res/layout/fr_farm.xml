@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<RelativeLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<RelativeLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:id="@+id/fr_farmRelativeTop">
+
+			<RelativeLayout
+				android:background="@color/background"
+				android:layout_width="match_parent"
+				android:layout_height="50dp"
+				android:id="@+id/frfarmRelativeLayout1">
+
+				<ImageButton
+					android:layout_width="wrap_content"
+					style="?android:attr/buttonBarButtonStyle"
+					android:layout_height="wrap_content"
+					android:src="@drawable/aic_arrow_left"
+					android:layout_centerVertical="true"
+					android:id="@+id/fr_farmImageButBack"/>
+
+				<Button
+					android:paddingHorizontal="10dp"
+					android:textSize="12sp"
+					android:layout_width="wrap_content"
+					android:layout_height="20dp"
+					android:text="Краткий обзор"
+					android:layout_centerInParent="true"
+					android:background="@drawable/btn_bkg_trans"/>
+
+				<ImageButton
+					android:tint="#ffffff"
+					android:layout_width="wrap_content"
+					style="?android:attr/buttonBarButtonStyle"
+					android:layout_height="wrap_content"
+					android:src="@drawable/ic_share_variant"
+					android:layout_alignParentRight="true"
+					android:layout_centerVertical="true"
+					android:layout_margin="5dp"
+					android:id="@+id/fr_farmImageBtnShare"/>
+
+			</RelativeLayout>
+
+			<RelativeLayout
+				android:background="@color/colorPrimaryDark"
+				android:layout_width="match_parent"
+				android:layout_height="500dp"
+				android:layout_below="@id/frfarmRelativeLayout1"
+				android:id="@+id/frfarmRelativeLayout4"
+				android:padding="20dp">
+
+				<LinearLayout
+					android:layout_marginHorizontal="20dp"
+					android:orientation="horizontal"
+					android:layout_width="match_parent"
+					android:layout_height="35dp"
+					android:background="@drawable/bkg_swich_calendr"
+					android:id="@+id/frfarmLinearLayout1">
+
+					<TextView
+						android:id="@+id/fr_farmTextSwichDay"
+						android:text="День"
+						android:textAppearance="?android:attr/textAppearanceSmall"
+						style="@style/TextCalendSwitch"/>
+
+					<TextView
+						android:id="@+id/fr_farmTextSwichWeemh"
+						android:text="Неделя"
+						android:textAppearance="?android:attr/textAppearanceSmall"
+						style="@style/TextCalendSwitch"/>
+
+					<TextView
+						android:id="@+id/fr_farmTextSwichMonth"
+						android:text="Месяц"
+						android:textAppearance="?android:attr/textAppearanceSmall"
+						style="@style/TextCalendSwitch"/>
+
+					<TextView
+						android:id="@+id/fr_farmTextSwichYear"
+						android:text="Год"
+						android:textAppearance="?android:attr/textAppearanceSmall"
+						style="@style/TextCalendSwitch"/>
+
+				</LinearLayout>
+
+				<RelativeLayout
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_below="@id/frfarmLinearLayout1"
+					android:id="@+id/frfarmRelativeLayout3"
+					android:layout_marginTop="10dp">
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="Small Text"
+						android:textAppearance="?android:attr/textAppearanceSmall"
+						android:layout_centerInParent="true"
+						android:id="@+id/fr_farmTextDate"/>
+
+					<ImageButton
+						android:id="@+id/fr_farmImageBtn_dateback"
+						android:layout_width="wrap_content"
+						style="?android:attr/buttonBarButtonStyle"
+						android:layout_height="wrap_content"
+						android:src="@drawable/aic_arrow_left"/>
+
+					<ImageButton
+						android:id="@+id/fr_farmImageBtn_dateforv"
+						android:layout_width="wrap_content"
+						style="?android:attr/buttonBarButtonStyle"
+						android:layout_height="wrap_content"
+						android:src="@drawable/aic_arrow_right"
+						android:layout_alignParentRight="true"/>
+
+				</RelativeLayout>
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_centerInParent="true"
+					android:layout_below="@id/frfarmRelativeLayout3"
+					android:id="@+id/frfarmImageView1"/>
+
+				<LinearLayout
+					android:orientation="horizontal"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_alignBottom="@id/frfarmImageView1"
+					android:layout_alignRight="@id/frfarmImageView1"
+					android:gravity="center">
+
+					<ImageButton
+						style="?android:attr/buttonBarButtonStyle"
+						android:src="@drawable/cil_animal"
+						android:layout_width="40dp"
+						android:layout_height="40dp"
+						android:layout_margin="5dp"/>
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="0"
+						android:textAppearance="?android:attr/textAppearanceSmall"
+						android:id="@+id/fr_farmTextCount"/>
+
+				</LinearLayout>
+
+			</RelativeLayout>
+
+			<ImageView
+				android:id="@+id/fr_farmImageBanner"
+				android:layout_alignParentBottom="true"
+				android:src="@drawable/banner"
+				android:layout_width="match_parent"
+				android:layout_height="60dp"/>
+
+			<RelativeLayout
+				android:layout_above="@id/fr_farmImageBanner"
+				android:padding="10dp"
+				android:layout_width="match_parent"
+				android:layout_height="280dp"
+				android:layout_margin="10dp"
+				android:background="@drawable/bkg_lay_dial"
+				android:id="@+id/frfarmRelativeLayout5">
+
+				<TextView
+					android:id="@+id/fr_farmTextView"
+					android:textSize="14sp"
+					android:textColor="#000000"
+					android:textStyle="bold"
+					android:text="Распределение сфокусированного времени"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"/>
+
+				<View
+					android:layout_below="@id/fr_farmTextView"
+					android:layout_marginVertical="10dp"
+					android:background="@color/background"
+					android:layout_width="match_parent"
+					android:layout_height="1dp"
+					android:id="@+id/frfarmView1"/>
+
+				<TextView
+					android:layout_below="@id/frfarmView1"
+					android:textColor="#000000"
+					android:id="@+id/fr_farmTextGraphTitle"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"/>
+
+				<com.github.mikephil.charting.charts.BarChart
+					android:layout_marginTop="10dp"
+					android:id="@+id/fr_farmChart"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:layout_below="@id/fr_farmTextGraphTitle"/>
+
+			</RelativeLayout>
+
+			<Button
+				android:id="@+id/fr_farmButTestSet"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="заполнить данными"
+				android:layout_alignParentRight="true"
+				android:layout_centerVertical="true"
+				android:background="#FF86E179"/>
+
+			<Button
+				android:id="@+id/fr_farmButTestRemove"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Очистить"
+				android:layout_below="@id/fr_farmButTestSet"
+				android:layout_alignParentRight="true"
+				android:background="#FFE16880"/>
+
+		</RelativeLayout>
+
+		<RelativeLayout
+			android:background="@color/greyLigth"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/fr_farmRelativeBottom"
+			android:layout_below="@id/fr_farmRelativeTop">
+
+			<RelativeLayout
+				android:layout_margin="10dp"
+				android:padding="10dp"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/fr_farmRelativPie"
+				android:background="@drawable/bkg_lay_dial">
+
+				<ImageView
+					android:src="@drawable/crown_color"
+					android:layout_width="40dp"
+					android:layout_height="40dp"
+					android:id="@+id/fr_farmImageViewCrown"/>
+
+				<TextView
+					android:textColor="#000000"
+					android:id="@+id/fr_farmTextPieTitle"
+					android:layout_toRightOf="@id/fr_farmImageViewCrown"
+					android:layout_alignBottom="@id/fr_farmImageViewCrown"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginBottom="10dp"
+					android:gravity="center"
+					android:textStyle="bold"
+					android:text="@string/stat_pietitle"
+					android:textSize="16sp"/>
+
+				<com.github.mikephil.charting.charts.PieChart
+					android:layout_below="@id/fr_farmTextPieTitle"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/fr_farmPieChart"/>
+
+				<androidx.recyclerview.widget.RecyclerView
+					android:layout_below="@id/fr_farmPieChart"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/fr_farmRecyclerPie"/>
+
+			</RelativeLayout>
+
+			<RelativeLayout
+				android:layout_below="@id/fr_farmRelativPie"
+				android:padding="10dp"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="10dp"
+				android:background="@drawable/bkg_lay_dial">
+
+				<ImageView
+					android:src="@drawable/crown_color"
+					android:layout_width="40dp"
+					android:layout_height="40dp"
+					android:id="@+id/fr_farmImageViewCrown2"/>
+
+				<TextView
+					android:layout_alignBottom="@id/fr_farmImageViewCrown2"
+					android:textColor="#000000"
+					android:layout_marginBottom="20dp"
+					android:id="@+id/fr_farmTextFavTitle"
+					android:layout_toRightOf="@id/fr_farmImageViewCrown2"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:gravity="center"
+					android:textStyle="bold"
+					android:text="@string/stat_favAnim"
+					android:textSize="16sp"/>
+
+				<LinearLayout
+					android:orientation="vertical"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_below="@id/fr_farmTextFavTitle">
+
+					<androidx.recyclerview.widget.RecyclerView
+						android:id="@+id/fr_farmRecyclFavor"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"/>
+
+				</LinearLayout>
+
+			</RelativeLayout>
+
+			<ImageView
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:background="#80ffffff"
+				android:id="@+id/fr_farmViewShad"
+				android:src="@drawable/ic_farm"/>
+
+		</RelativeLayout>
+
+	</RelativeLayout>
+
+</ScrollView>
+

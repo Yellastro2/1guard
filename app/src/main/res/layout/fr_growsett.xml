@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/trans">
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="600dp"
+		android:layout_alignParentBottom="true"
+		android:id="@+id/frgrowsettRelativeLayout2">
+
+		<RelativeLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@drawable/bkg_title_dial"
+			android:id="@+id/fr_growsettRelativeToolbar">
+
+			<View
+				android:background="@drawable/bkg_lay_dial"
+				android:layout_width="50dp"
+				android:layout_height="2dp"
+				android:layout_centerHorizontal="true"
+				android:layout_marginTop="5dp"
+				android:id="@+id/frgrowsettView1"/>
+
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_centerHorizontal="true"
+				android:background="@drawable/btn_bkg_trans"
+				android:gravity="center"
+				android:layout_centerVertical="true"
+				android:layout_below="@id/frgrowsettView1"
+				android:layout_marginTop="10dp"
+				android:layout_marginBottom="10dp"
+				android:id="@+id/frgrowsettLinearLayout1">
+
+				<TextView
+					android:paddingHorizontal="5dp"
+					android:gravity="center"
+					android:layout_margin="2dp"
+					android:textColor="@color/background"
+					android:text="@string/growset_sett"
+					android:layout_width="wrap_content"
+					android:layout_height="30dp"
+					android:background="@drawable/bkg_white"/>
+
+				<TextView
+					android:paddingHorizontal="5dp"
+					android:gravity="center"
+					android:layout_margin="2dp"
+					android:textColor="@color/grey"
+					android:text="@string/growset_favorit"
+					android:layout_width="wrap_content"
+					android:layout_height="30dp"/>
+
+			</LinearLayout>
+
+		</RelativeLayout>
+
+		<RelativeLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:id="@+id/fr_growsettLayBody"
+			android:layout_below="@id/fr_growsettRelativeToolbar">
+
+			<RelativeLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content">
+
+				<RelativeLayout
+					android:background="@color/greyLigth"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_below="@id/fr_growsettRelativeToolbar"
+					android:padding="10dp"
+					android:id="@+id/frgrowsettRelativeLayout3">
+
+					<TextView
+						android:textColor="@color/grey"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="@string/growset_animals"
+						android:textAppearance="?android:attr/textAppearanceSmall"
+						android:layout_marginTop="20dp"
+						android:id="@+id/frgrowsettTextViewAnim"/>
+
+					<androidx.recyclerview.widget.RecyclerView
+						android:id="@+id/fr_growsettRecyclAniml"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_below="@id/frgrowsettTextViewAnim"
+						android:layout_marginTop="15dp"/>
+
+					<View
+						android:background="@drawable/bkg_lay_dial"
+						android:layout_margin="10dp"
+						android:layout_width="match_parent"
+						android:layout_height="1dp"
+						android:layout_below="@id/fr_growsettRecyclAniml"
+						android:id="@+id/frgrowsettView3"/>
+
+					<TextView
+						android:textColor="@color/grey"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="@string/growset_tags"
+						android:textAppearance="?android:attr/textAppearanceSmall"
+						android:layout_marginTop="10dp"
+						android:id="@+id/frgrowsettTextView1"
+						android:layout_below="@id/frgrowsettView3"/>
+
+					<HorizontalScrollView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_below="@id/frgrowsettTextView1"
+						android:layout_marginTop="10dp"
+						android:id="@+id/frgrowsettHorizontalScrollView1">
+
+						<LinearLayout
+							android:id="@+id/fr_growsettLinearTags"
+							android:orientation="horizontal"
+							android:layout_width="wrap_content"
+							android:layout_height="30dp">
+
+							<TextView
+								android:textSize="16sp"
+								android:textColor="@color/grey"
+								android:id="@+id/fr_growsettTextPlus"
+								android:layout_width="30dp"
+								android:layout_height="match_parent"
+								android:text="+"
+								android:paddingVertical="10dp"
+								android:textAppearance="?android:attr/textAppearanceMedium"
+								android:gravity="center"
+								android:background="@drawable/bkg_tagitem"
+								android:layout_marginRight="10dp"
+								style="@style/TagText"/>
+
+						</LinearLayout>
+
+					</HorizontalScrollView>
+
+					<View
+						android:background="@drawable/bkg_lay_dial"
+						android:layout_width="match_parent"
+						android:layout_height="1dp"
+						android:layout_below="@id/frgrowsettHorizontalScrollView1"
+						android:id="@+id/frgrowsettView2"
+						android:layout_margin="10dp"/>
+
+					<TextView
+						android:textColor="@color/grey"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="@string/growset_time"
+						android:textAppearance="?android:attr/textAppearanceSmall"
+						android:layout_below="@id/frgrowsettView2"
+						android:id="@+id/frgrowsettTextView2"/>
+
+					<ImageView
+						android:src="@drawable/time_line"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_below="@id/frgrowsettTextView2"
+						android:layout_marginTop="10dp"
+						android:id="@+id/frgrowsettImageView1"/>
+
+					<androidx.recyclerview.widget.RecyclerView
+						android:clipToPadding="false"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_below="@id/frgrowsettImageView1"
+						android:id="@+id/fr_growset_recycler"
+						android:layout_marginTop="10dp"/>
+
+				</RelativeLayout>
+
+				<include
+					layout="@layout/it_set"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_below="@id/frgrowsettRelativeLayout3"/>
+
+			</RelativeLayout>
+
+		</RelativeLayout>
+
+	</RelativeLayout>
+
+	<View
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_above="@id/frgrowsettRelativeLayout2"
+		android:id="@+id/fr_growsettViewTop"/>
+
+</RelativeLayout>
+

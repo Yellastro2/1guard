@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:paddingBottom="10dp">
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="1."
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:textColor="#FF000000"
+		android:layout_centerVertical="true"
+		android:id="@+id/it_favanimTextCount"/>
+
+	<ImageView
+		android:src="@drawable/Animal"
+		android:layout_width="40dp"
+		android:layout_height="40dp"
+		android:layout_toRightOf="@id/it_favanimTextCount"
+		android:id="@+id/it_favanimImageView1"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Лисичка"
+		android:layout_toRightOf="@id/it_favanimImageView1"
+		android:textColor="#FF000000"
+		android:id="@+id/it_favanimTextName"
+		android:layout_margin="5dp"/>
+
+	<View
+		android:id="@+id/it_favanimViewFull"
+		android:background="@drawable/btn_bkg_grey"
+		android:layout_width="match_parent"
+		android:layout_height="10dp"
+		android:layout_toRightOf="@id/it_favanimImageView1"
+		android:layout_below="@id/it_favanimTextName"/>
+
+	<View
+		android:id="@+id/it_favanimViewProgress"
+		android:background="@drawable/btn_bkg_primary"
+		android:layout_width="100dp"
+		android:layout_height="10dp"
+		android:layout_toRightOf="@id/it_favanimImageView1"
+		android:layout_below="@id/it_favanimTextName"/>
+
+</RelativeLayout>
+

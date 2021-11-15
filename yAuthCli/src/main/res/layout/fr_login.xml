@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Добро пожаловать!"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_marginTop="80dp"
+		android:layout_centerHorizontal="true"
+		android:id="@+id/fr_loginTextHead"
+		android:layout_marginBottom="50dp"/>
+
+	<EditText
+		android:singleLine="true"
+		android:imeOptions="actionDone"
+		style="@style/input"
+		android:layout_width="wrap_content"
+		android:ems="10"
+		android:layout_height="wrap_content"
+		android:id="@+id/frloginEditText1"
+		android:layout_centerHorizontal="true"
+		android:layout_below="@id/fr_loginTextHead"/>
+
+	<TextView
+		android:id="@+id/fr_loginTextView"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Логин"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_alignLeft="@id/frloginEditText1"
+		android:layout_marginTop="70dp"
+		android:layout_above="@id/frloginEditText1"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Пароль"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_below="@id/frloginEditText1"
+		android:id="@+id/frloginTextView1"
+		android:layout_alignLeft="@id/frloginEditText1"
+		android:layout_marginTop="25dp"/>
+
+	<EditText
+		android:singleLine="true"
+		android:imeOptions="actionDone"
+		style="@style/input"
+		android:layout_width="wrap_content"
+		android:inputType="textPassword"
+		android:layout_height="wrap_content"
+		android:ems="10"
+		android:layout_below="@id/frloginTextView1"
+		android:layout_alignLeft="@id/frloginEditText1"
+		android:layout_margin="0dp"
+		android:id="@+id/frloginEditText2"/>
+
+	<Button
+		android:id="@+id/fr_loginButton"
+		android:layout_width="200dp"
+		android:layout_height="wrap_content"
+		android:text="Войти"
+		android:layout_centerHorizontal="true"
+		android:textSize="20sp"
+		android:paddingLeft="76dp"
+		android:paddingRight="20dp"
+		android:layout_marginBottom="100dp"
+		style="@style/button"
+		android:layout_below="@id/frloginEditText2"
+		android:layout_marginTop="45dp"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Неверные имя или пароль"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_below="@id/frloginEditText2"
+		android:layout_centerHorizontal="true"
+		android:textColor="#FFC24040"
+		android:layout_margin="10dp"
+		android:id="@+id/frloginTextWrong"
+		android:visibility="gone"/>
+
+	<ProgressBar
+		android:layout_width="wrap_content"
+		style="?android:attr/progressBarStyleLarge"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/frloginTextWrong"
+		android:layout_centerInParent="true"
+		android:id="@+id/frloginProgressBar1"
+		android:layout_marginTop="15dp"/>
+
+	<TextView
+		android:visibility="gone"
+		android:id="@+id/fr_loginTextRegistr"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Зарегистрироваться"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_above="@id/fr_loginButton"
+		android:layout_centerInParent="true"
+		android:textColor="@color/colorAccent"/>
+
+</RelativeLayout>
+

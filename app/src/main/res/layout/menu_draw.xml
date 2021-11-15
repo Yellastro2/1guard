@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<View
+		android:id="@+id/menu_drawBkg"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="#80000000"/>
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:background="@color/background"
+		android:id="@+id/menu_drawMain"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:gravity="top">
+
+		<RelativeLayout
+			android:tag="head"
+			android:id="@+id/menu_drawHeader"
+			android:angle="180"
+			android:background="@drawable/bkg_header"
+			android:layout_width="match_parent"
+			android:layout_height="100dp"
+			android:paddingTop="15dp">
+
+			<ImageView
+				android:tint="#ffffff"
+				android:src="@drawable/ri_vipl"
+				android:layout_width="30dp"
+				android:layout_height="30dp"
+				android:id="@+id/menudrawImageView1"
+				android:layout_margin="10dp"/>
+
+			<TextView
+				android:textColor="#ffffff"
+				android:textSize="12sp"
+				android:textStyle="bold"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/menu_viptitle"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_toRightOf="@id/menudrawImageView1"
+				android:layout_alignTop="@id/menudrawImageView1"
+				android:layout_alignBottom="@id/menudrawImageView1"
+				android:gravity="center"/>
+
+			<TextView
+				android:textSize="10sp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/menu_vipdesk"
+				android:textAppearance="?android:attr/textAppearanceSmall"
+				android:layout_below="@id/menudrawImageView1"
+				android:layout_alignLeft="@id/menudrawImageView1"/>
+
+		</RelativeLayout>
+
+
+	</LinearLayout>
+
+</RelativeLayout>
+

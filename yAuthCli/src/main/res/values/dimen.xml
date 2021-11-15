@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="input_pading">5dp</dimen>
+	<dimen name="ava_size">55dp</dimen>
+	<dimen name="corners">30dp</dimen>
+    <dimen name="reg_margin_interval">15dp</dimen>
+</resources>

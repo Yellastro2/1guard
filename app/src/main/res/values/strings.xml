@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">1Guard</string>
+	
+	<string name="shop_owned">Доступно</string>
+	<string name="shop_prem">Про версия</string>
+	<string name="shop_title">Магазин</string>
+	<string name="shop_desc">Верный друг и отличный помощник по ферме</string>
+	
+	<string name="stat_pietitle">Распределение тегов</string>
+	<string name="stat_favAnim">Любимые животные</string>
+	<string name="stat_focustrend">Фокус тренд</string>
+	<string name="stat_example">Пример</string>
+	
+	<string name="empty">Пусто</string>
+	
+	<string name="cr_tag_btn">Создать!</string>
+	<string name="cr_tag_title">Новый тег</string>
+	<string name="cr_tag_name">Название</string>
+	<string name="cr_tag_color">Цвет</string>
+	
+	<string name="tag_stud">Учеба</string>
+	<string name="tag_sport">Спорт</string>
+	<string name="tag_work">Работа</string>
+	<string name="tag_comun">Общение</string>
+	<string name="tag_over">Другое</string>
+	<string name="tag_fun">Развлечение</string>
+	
+	<string name="animl_1">Песик,Жабка,Лисичка,Слон,Ципа,Пиги,Улитка,Цип-цип,Видра,Лева</string>
+	<string name="animl_2">Доступно</string>
+	<string name="animl_3">Доступно</string>
+	<string name="animl_4">Доступно</string>
+	<string name="animl_5">Доступно</string>
+	<string name="animl_6">Доступно</string>
+	<string name="animl_7">Доступно</string>
+	<string name="animl_8">Доступно</string>
+	<string name="animl_9">Доступно</string>
+	<string name="animl_10">Доступно</string>
+	
+	<string name="growset_animals">Животные</string>
+	<string name="growset_favorit">Избранное</string>
+	<string name="growset_sett">Настройки роста</string>
+	<string name="growset_animl">Животные</string>
+	<string name="growset_tags">Теги</string>
+	<string name="growset_time">Сфокусированное время</string>
+	
+	<string name="prem_title1">Подробная статистика</string>
+	<string name="prem_body1">Здесь Вы сможете узнать когда Вы сосредоточены больше всего, а также отслеживать время использования телефона! </string>
+	<string name="prem_extra1">Узнайте, на что вы потратили время, увеличив продуктивность в два раза! </string>
+	
+	<string name="prem_title2">Достижения</string>
+	<string name="prem_body2">Разблокируйте больше достижений и получайте дополнительные награды! </string>
+	<string name="prem_extra2">Разблокируйте достижения сейчас, что бы выйграть более 7000 монет! </string>
+	
+	<string name="pursh_succs">Премиум приобретен</string>
+	<string name="pursh_nogp">Для покупки требуется Google Play</string>
+	
+	<string name="menu_viptitle">Продвинутая версия</string>
+	<string name="menu_vipdesk">Распродажа 18 часов 30 минут </string>
+	
+	<string name="finish_title">Вы получили</string>
+	<string name="finish_button">Хорошо</string>
+	
+	<string name="surr_title">Вы уверены что хотите отменить рост этого зверька?</string>
+	<string name="surr_body">На вашей ферме появится одно пустое место</string>
+	<string name="surr_btnyes">Сдаться</string>
+	
+	<string name="notfy_alarm_body">Идет рост</string>
+	
+	<string name="notfy_title">Идет рост</string>
+	<string name="notify_body">Прошло: </string>
+	
+	<string name="tsett_timer">Таймер</string>
+	<string name="tsett_secnd">Секундомер</string>
+	<string name="tsett_header">Глубокая фокусировка</string>
+	<string name="tsett_body">Время остановится если вы выйдете из приложения</string>
+	
+	<string name="grow_finish">Завершить</string>
+	<string name="grow_surrend">Сдаться</string>
+	<string name="grow_cancel">Отменить</string>
+	<string name="grow_btn">Взращивать</string>
+	<string name="grow_body_activ">Хватит сидеть в телефоне!</string>
+	<string name="grow_body">Начните взращивать животных сегодня!</string>
+	
+</resources>

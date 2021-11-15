@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">1Guard</string>
+	
+	<string name="shop_owned">Mavjud
+</string>
+	<string name="shop_prem">
+Pro versiya</string>
+	<string name="shop_title">do\'kon</string>
+	<string name="shop_desc">Sodiq do\'st va fermada  yordamchi</string>
+	
+	<string name="stat_pietitle">Teglarni tahrirlash</string>
+	<string name="stat_favAnim">Sevimli hayvonlar</string>
+	<string name="stat_focustrend">Fokus tendentsiyasi</string>
+	<string name="stat_example">Misol</string>
+	
+	<string name="empty">Bo\'sh</string>
+	
+	<string name="cr_tag_btn">Yaratish!</string>
+	<string name="cr_tag_title">Yangi teg</string>
+	<string name="cr_tag_name">Nomi</string>
+	<string name="cr_tag_color">Rangi</string>
+	
+	<string name="tag_stud">Ta\'lim</string>
+	<string name="tag_sport">Sport</string>
+	<string name="tag_work">Ish</string>
+	<string name="tag_comun">Suhbat</string>
+	<string name="tag_over">Boshqa</string>
+	<string name="tag_fun">Ko\'ngil-hushlik</string>
+	
+	<string name="animl_1">Kuchikcha,Qurbaqacha,Tulkivoy,Fil,Jo\'javoy,Co\'chqacha,Shilla-qurt,Jo\'jacha,Vidra,Sher</string>
+	<string name="animl_2">Mavjud</string>
+	<string name="animl_3">Mavjud</string>
+	<string name="animl_4">Mavjud</string>
+	<string name="animl_5">Mavjud</string>
+	<string name="animl_6">Mavjud</string>
+	<string name="animl_7">Mavjud</string>
+	<string name="animl_8">Mavjud</string>
+	<string name="animl_9">Mavjud</string>
+	<string name="animl_10">Mavjud</string>
+	
+	<string name="growset_animals">Hayvonlar</string>
+	<string name="growset_favorit">Sevumlilar</string>
+	<string name="growset_sett">Hayvon o\'sishini sozlash</string>
+	<string name="growset_animl">Hayvonlar</string>
+	<string name="growset_tags">Teglar</string>
+	<string name="growset_time">Diqqat jamlangan vaqt</string>
+	
+	<string name="prem_title1">batafsil statistika</string>
+	<string name="prem_body1">Bu yerda siz qachon diqqatingizni jamlaganingizni bilib olishingiz va telefoningizdan foydalanish vaqtini kuzatishingiz mumkin </string>
+	<string name="prem_extra1">Vaqtingizni nimaga sarflaganingizni bilib samaradorligingizni 2 baravar oshirishing</string>
+	
+	<string name="prem_title2">Yutuqlar</string>
+	<string name="prem_body2">Ko\'proq yutuqlarni oching va ko\'proq tangalarga ega bo\'ling! </string>
+	<string name="prem_extra2">Hoziroq yutuqlarni oching va 7000 tangaga ega bo\'ling</string>
+	
+	<string name="pursh_succs">Premium harid qilindi</string>
+	<string name="pursh_nogp">Premium harid qilish uchun google play kerak</string>
+	
+	<string name="menu_viptitle">Premium versiya</string>
+	<string name="menu_vipdesk">Aksiya 18 soat 30 minut </string>
+	
+	<string name="finish_title">Siz ega bo\'ldingiz</string>
+	<string name="finish_button">Yahshi</string>
+	
+	<string name="surr_title">Siz bu hayvonchani o\'shini to\'xtatishni hohlaysimi?</string>
+	<string name="surr_body">Sizning fermangizda 1 bo\'sh o\'rin paydo bo\'ladi</string>
+	<string name="surr_btnyes">СдатьсTaslim bo\'lish</string>
+	
+	<string name="notfy_alarm_body">O\'sish davom etmoqda</string>
+	
+	<string name="notfy_title">O\'sish davom etmoqda</string>
+	<string name="notify_body">Vaqt o\'tdi: </string>
+	
+	<string name="tsett_timer">Taymer</string>
+	<string name="tsett_secnd">Sekundomer</string>
+	<string name="tsett_header">Unumli diqqatni jamlash</string>
+	<string name="tsett_body">Siz ilovadan chiqsangiz vaqt to\'xtaydi</string>
+	
+	<string name="grow_finish">Tugatish</string>
+	<string name="grow_surrend">Taslim bo\'lish</string>
+	<string name="grow_cancel">Bekor qilish</string>
+	<string name="grow_btn">O\'stirish</string>
+	<string name="grow_body_activ">Telefonda o\'tirma!</string>
+	<string name="grow_body">Bugundan boshlab hayvonlarni o\'stiring!</string>
+	
+</resources>

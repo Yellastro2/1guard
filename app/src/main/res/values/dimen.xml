@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="corner_orange">8dp</dimen>
+	<dimen name="tool_height">30dp</dimen>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFB65A</color>
+    <color name="colorPrimaryDark">#B74924</color>
+    <color name="colorAccent">#FFFFFFFF</color>
+	<color name="background"> #FF7648</color>
+	<color name="grey"> #4D5150</color>
+	<color name="greyLigth"> #F4F4F4</color>
+	<color name="red"> #F26764</color>
+	<color name="trans"> #60000000</color>
+	<color name="transBtn"> #45000000</color>
+	<color name="transWhite"> #80ffffff</color>
+	
+	<color name="tag_stud">#FFE68491</color>
+	<color name="tag_sport">#FF20A228</color>
+	<color name="tag_work">#FF1E779F</color>
+	<color name="tag_comun">#FF9EB123</color>
+	<color name="tag_over">#FFB65A</color>
+	<color name="tag_fun">#FFAB5C19</color>
+	
+	
+</resources>

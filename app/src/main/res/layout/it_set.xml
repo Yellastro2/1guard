@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+	<RelativeLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="#FFFFFFFF"
+		android:elevation="5dp"
+		android:padding="10dp">
+
+		<Button
+			android:layout_width="200dp"
+			android:layout_height="wrap_content"
+			android:text="@string/grow_btn"
+			style="@style/OrangeBtn"
+			android:padding="3dp"
+			android:id="@+id/fr_growsettButton"
+			android:layout_alignParentRight="true"/>
+
+		<ImageView
+			android:tint="#000000"
+			android:layout_width="35dp"
+			android:layout_height="35dp"
+			android:id="@+id/it_setImageLike"
+			android:layout_centerVertical="true"
+			android:layout_marginRight="10dp"
+			android:src="@drawable/ic_heart_outline"/>
+
+		<ImageView
+			android:layout_toRightOf="@id/it_setImageLike"
+			android:src="@drawable/Animal"
+			android:layout_width="60dp"
+			android:layout_height="60dp"
+			android:layout_centerVertical="true"
+			android:id="@+id/frgrowsettImageView2"/>
+
+		<ImageView
+			android:tint="#000000"
+			android:src="@drawable/ph_timer"
+			android:layout_width="25dp"
+			android:layout_height="25dp"
+			android:layout_toRightOf="@id/frgrowsettImageView2"
+			android:id="@+id/frgrowsettImageView3"/>
+
+		<TextView
+			android:textColor="#000000"
+			android:id="@+id/fr_growsettTextTotalTime"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="20"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_toRightOf="@id/frgrowsettImageView3"
+			android:layout_marginLeft="10dp"/>
+
+		<TextView
+			android:textColor="#000000"
+			android:id="@+id/fr_growsettTextTotalTag"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Tag"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_toRightOf="@id/frgrowsettImageView2"
+			android:layout_alignBottom="@id/frgrowsettImageView2"/>
+
+	</RelativeLayout>
+
+

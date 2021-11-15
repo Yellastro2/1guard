@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:background="@drawable/bkg_lay_dial"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_gravity="center">
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="70dp"
+		android:background="@drawable/bkg_title_dial">
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/cr_tag_title"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_centerInParent="true"/>
+
+	</RelativeLayout>
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:padding="10dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center">
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/cr_tag_name"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_marginTop="20dp"
+			android:textColor="#FF000000"/>
+
+		<EditText
+			android:textColor="#000000"
+			android:id="@+id/dial_createTagEditText"
+			android:layout_width="wrap_content"
+			android:ems="10"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="10dp"/>
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/cr_tag_color"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_marginTop="20dp"
+			android:textColor="#FF000000"/>
+
+		<LinearLayout
+			android:id="@+id/dial_createTagLinearColor"
+			android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="10dp">
+
+			<ImageView
+				android:layout_weight="1"
+				android:background="@color/tag_stud"
+				android:layout_width="0dp"
+				android:layout_height="30dp"/>
+
+			<ImageView
+				android:layout_weight="1"
+				android:background="@color/tag_sport"
+				android:layout_width="0dp"
+				android:layout_height="30dp"/>
+
+			<ImageView
+				android:layout_weight="1"
+				android:background="@color/tag_work"
+				android:layout_width="0dp"
+				android:layout_height="30dp"/>
+
+			<ImageView
+				android:layout_weight="1"
+				android:background="@color/tag_comun"
+				android:layout_width="0dp"
+				android:layout_height="30dp"/>
+
+			<ImageView
+				android:layout_weight="1"
+				android:background="@color/tag_over"
+				android:layout_width="0dp"
+				android:layout_height="30dp"/>
+
+			<ImageView
+				android:layout_weight="1"
+				android:background="@color/tag_fun"
+				android:layout_width="0dp"
+				android:layout_height="30dp"/>
+
+		</LinearLayout>
+
+		<Button
+			android:id="@+id/dial_createTagButton"
+			android:layout_width="200dp"
+			android:layout_height="wrap_content"
+			android:text="@string/cr_tag_btn"
+			android:layout_alignParentBottom="true"
+			style="@style/OrangeBtn"
+			android:padding="3dp"
+			android:layout_centerHorizontal="true"
+			android:layout_marginTop="30dp"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+

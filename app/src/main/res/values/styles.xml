@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="OrangeStyle" parent="@android:style/Theme.Material.NoActionBar">
+		<item name="android:statusBarColor">@color/colorPrimary</item>
+		<item name="android:imageButtonStyle">@style/imageBtn</item>
+		
+	</style>
+	
+	<style name="imageBtn">
+		<item name="android:tint">#ffffff</item>
+	</style>
+	
+	<style name="OrangeBtn">
+		<item name="android:background">@drawable/btn_bkg_primary</item>
+		<item name="android:textColor">#ffffff</item>
+		<item name="android:textSize">14sp</item>
+		<item name="android:elevation">10dp</item>
+		<item name="android:textStyle">bold</item>
+	</style>
+	<style name="ActivateBtn">
+		<item name="android:background">@drawable/btn_bkg_activ</item>
+		<item name="android:textColor">#ffffff</item>
+		<item name="android:textSize">12sp</item>
+		<item name="android:padding">5dp</item>
+		<item name="android:gravity">center</item>
+		
+		
+	</style>
+	
+	<style name="TagText">
+		<item name="android:background">@drawable/btn_bkg_tag</item>
+		<item name="android:textSize">10sp</item>
+		<item name="android:layout_marginRight">5dp</item>
+		<item name="android:padding">2dp</item>
+		<item name="android:gravity">center</item>
+
+
+	</style>
+	
+	<style name="TextCalendSwitch">
+		
+		<item name="android:textColor">#ffffff</item>
+		<item name="android:textSize">14sp</item>
+		<item name="android:layout_width">0dp</item>
+		<item name="android:layout_height">match_parent</item>
+		<item name="android:layout_weight">1</item>
+		<item name="android:gravity">center</item>
+	</style>
+</resources>

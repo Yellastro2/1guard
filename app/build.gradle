@@ -1,0 +1,32 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.3"
+
+    defaultConfig {
+        applicationId "com.yellastrodev.oneguard"
+        minSdkVersion 21
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    } 
+} 
+
+dependencies { 
+	api project(':yAuthCli')
+	implementation "androidx.recyclerview:recyclerview:1.0.0"
+	implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
+	//implementation 'androidx.lifecycle:lifecycle-extensions:2.0.0'
+  //implementation 'com.google.android.gms:play-services-ads:19.1.0'
+	//implementation "androidx.core:core:1.0.0"
+    implementation fileTree(dir: "libs", include: ["*.jar","*.aar"])
+}

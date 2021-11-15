@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@drawable/bkg_lay_dial">
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="70dp"
+		android:background="@drawable/bkg_title_dial"
+		android:id="@+id/dialtimersettRelativeLayout1">
+
+		<LinearLayout
+			android:id="@+id/dial_timersettLinearSwitch"
+			android:orientation="horizontal"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerHorizontal="true"
+			android:background="@drawable/btn_bkg_trans"
+			android:gravity="center"
+			android:layout_centerVertical="true"
+			>
+
+			<ImageView
+				android:id="@+id/dial_timersettImageTimer"
+				android:layout_margin="2dp"
+				android:tint="@color/background"
+				android:src="@drawable/gg_sand_clock"
+				android:layout_width="wrap_content"
+				android:layout_height="30dp"
+				android:background="@drawable/bkg_white"/>
+
+			<ImageView
+				android:id="@+id/dial_timersettImageSec"
+				android:layout_margin="2dp"
+				android:tint="@color/grey"
+				android:src="@drawable/ph_timer"
+				android:layout_width="wrap_content"
+				android:layout_height="30dp"/>
+
+		</LinearLayout>
+
+		<TextView
+			android:id="@+id/dial_timersettTextTimer"
+			android:textColor="#ffffff"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/tsett_timer"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_toLeftOf="@id/dial_timersettLinearSwitch"
+			android:layout_centerVertical="true"
+			android:layout_alignParentLeft="true"
+			android:gravity="center"/>
+
+		<TextView
+			android:id="@+id/dial_timersettTextSec"
+			android:textColor="@color/transWhite"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/tsett_secnd"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_toRightOf="@id/dial_timersettLinearSwitch"
+			android:layout_centerVertical="true"
+			android:layout_alignParentRight="true"
+			android:gravity="center"/>
+
+	</RelativeLayout>
+
+	<RelativeLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/dialtimersettRelativeLayout1"
+		android:layout_marginTop="15dp">
+
+		<ImageView
+			android:tint="@color/grey"
+			android:src="@drawable/solid_fire"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_margin="10dp"
+			android:id="@+id/dialtimersettImageView1"/>
+
+		<Switch
+			
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentRight="true"
+			android:layout_marginRight="10dp"
+			android:elevation="10dp"
+			android:id="@+id/dialtimersettSwitch1"/>
+
+		<TextView
+			android:text="@string/tsett_header"
+			android:textColor="@color/grey"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:id="@+id/dialtimersettTextView1"
+			android:layout_toRightOf="@id/dialtimersettImageView1"
+			android:textSize="18sp"
+			android:layout_toLeftOf="@id/dialtimersettSwitch1"
+			android:layout_marginRight="5dp"/>
+
+		<TextView
+			android:text="@string/tsett_body"
+			android:textColor="@color/grey"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_below="@id/dialtimersettTextView1"
+			android:layout_alignLeft="@id/dialtimersettTextView1"
+			android:layout_marginTop="10dp"
+			android:textSize="16sp"
+			android:layout_alignRight="@id/dialtimersettTextView1"
+			android:layout_marginBottom="15dp"/>
+
+	</RelativeLayout>
+
+</RelativeLayout>
+

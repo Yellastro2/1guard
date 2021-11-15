@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@drawable/bkg_lay_dial"
+	android:gravity="center"
+	android:paddingBottom="30dp">
+
+	<ImageView
+		android:id="@+id/dial_buyanimImageView"
+		android:background="@color/greyLigth"
+		android:src="@android:drawable/ic_delete"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_margin="20dp"/>
+
+	<TextView
+		android:id="@+id/dial_buyanimTextName"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Large Text"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_margin="20dp"
+		android:textColor="#FF000000"/>
+
+	<TextView
+		android:textColor="@color/grey"
+		android:id="@+id/dial_buyanimTextDesk"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Medium Text"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:gravity="center"/>
+
+	<LinearLayout
+		android:id="@+id/dial_buyanimLinearPrice"
+		android:orientation="horizontal"
+		android:layout_width="150dp"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="30dp"
+		android:gravity="center"
+		android:padding="10dp"
+		android:background="@drawable/btn_bkg_primary">
+
+		<TextView
+			android:id="@+id/dial_buyanimTextPrice"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="300"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_marginRight="15dp"
+			android:textColor="#FFFFFFFF"
+			android:textStyle="bold"/>
+
+		<ImageView
+			android:src="@drawable/Coin_cat"
+			android:layout_width="31dp"
+			android:layout_height="30dp"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+

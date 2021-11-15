@@ -1,0 +1,3 @@
+include ':app'// , ':yAuthCli'  
+rootProject.name = "2Guard"
+//project(':yAuthCli').projectDir = new File('../def_apps/yAuthCli') 
