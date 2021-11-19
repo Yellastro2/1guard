@@ -2,4 +2,9 @@
 <resources>
     <dimen name="corner_orange">8dp</dimen>
 	<dimen name="tool_height">30dp</dimen>
+	<dimen name="input_pading">5dp</dimen>
+	<dimen name="ava_size">55dp</dimen>
+	<dimen name="corners">30dp</dimen>
+    <dimen name="reg_margin_interval">15dp</dimen>
+	
 </resources>

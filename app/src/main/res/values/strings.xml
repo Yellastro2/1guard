@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">1Guard</string>
+	<string name="notify_chan">yell channel!!</string>
+	
 	
 	<string name="shop_owned">Доступно</string>
 	<string name="shop_prem">Про версия</string>

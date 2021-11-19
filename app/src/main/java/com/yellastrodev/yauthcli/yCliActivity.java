@@ -3,7 +3,6 @@ package com.yellastrodev.yauthcli;
 import android.animation.Animator;
 import android.animation.AnimatorSet;
 import android.animation.ValueAnimator;
-import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.app.Fragment;
@@ -17,6 +16,7 @@ import android.content.SharedPreferences;
 import android.net.http.HttpResponseCache;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.PersistableBundle;
 import android.util.Log;
 import android.view.ContextThemeWrapper;
 import android.view.Gravity;
@@ -30,6 +30,9 @@ import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
+import androidx.fragment.app.FragmentActivity;
+import com.yellastrodev.oneguard.BuildConfig;
+import com.yellastrodev.oneguard.R;
 import com.yellastrodev.yauthcli.fragments.FrameLogin;
 import com.yellastrodev.yauthcli.fragments.iMyFragment;
 import com.yellastrodev.yhttpreq.yCallback;
@@ -39,8 +42,6 @@ import java.io.File;
 import java.io.IOException;
 import org.json.JSONException;
 import org.json.JSONObject;
-import android.os.PersistableBundle;
-import androidx.fragment.app.FragmentActivity;
 
 public abstract class yCliActivity extends FragmentActivity implements yMain {
 

@@ -14,13 +14,14 @@ import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import com.yellastrodev.yauthcli.yCliActivity;
-import com.yellastrodev.yauthcli.R;
+
 import com.yellastrodev.yauthcli.yAuthConst;
 
 import com.yellastrodev.yhttpreq.yRequester;
 import org.json.JSONException;
 import org.json.JSONObject;
 import com.yellastrodev.yhttpreq.yCallback;
+import com.yellastrodev.oneguard.R;
 
 public class FrameLogin extends iMyFragment
 {

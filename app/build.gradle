@@ -22,7 +22,8 @@ android {
 } 
 
 dependencies { 
-	api project(':yAuthCli')
+	implementation "androidx.fragment:fragment:1.0.0" 
+	
 	implementation "androidx.recyclerview:recyclerview:1.0.0"
 	implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
 	//implementation 'androidx.lifecycle:lifecycle-extensions:2.0.0'

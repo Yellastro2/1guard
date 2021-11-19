@@ -29,7 +29,7 @@
 		<service
 			android:name=".TimerService">
 		</service>
-		
+	
 		<receiver android:name=".SampleBootReceiver"
 			android:enabled="true">
 			<intent-filter>
